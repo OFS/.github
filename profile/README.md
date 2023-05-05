@@ -13,7 +13,7 @@ Accessing OFS ingredients to use within the development framework is easy.  The 
 
 |Development Focus|Repository Folder | Description |
 |:----------------:|:------------------:|:--------------------|
-|Hardware | [ofs-d5005](https://github.com/OFS/ofs-d5005) | Provides RTL, unit tests, and build scripts to create Intel<sup>&reg;</sup> Stratix 10<sup>&reg;</sup> FIM and is leveraged as a starting point for a custom design.  The reference FIM targets an Intel FPGA PAC D5005 development board. |
+|Hardware | [ofs-d5005](https://github.com/OFS/ofs-d5005) | Provides RTL, unit tests, and build scripts to create Intel<sup>&reg;</sup> Stratix<sup>&reg;</sup> 10 FIM and is leveraged as a starting point for a custom design.  The reference FIM targets an Intel FPGA PAC D5005 development board. |
 |Hardware| [ofs-fim-common](https://github.com/OFS/ofs-fim-common) | Provides RTL components that are shared among all new platforms that are introduced in OFS.  This folder is a subumodule in each platform repository folder. |
 | Hardware | [examples-afu](https://github.com/OFS/examples-afu) | Provides simple Accelerator Functional Unit (AFU) examples you can use as a template for starting your own workload design.  |
 | Hardware | [ofs-platform-afu-bbb](https://github.com/OFS/ofs-platform-afu-bbb) | Contains the hardware code to build a standard interface between the FIM and your workload. | 
