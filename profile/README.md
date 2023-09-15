@@ -1,6 +1,6 @@
 # **Open FPGA Stack Overview**
 
-<img src="https://github.com/OFS/ofs.github.io/blob/main/docs/hw/d5005/reference_manuals/ofs_fim/images/OFS.png" align="right" width="150" height="150">
+<img src="https://github.com/OFS/ofs.github.io/blob/main/docs/hw/n6001/reference_manuals/ofs_fim/images/ofs-logo-1x1.png" align="right" width="150" height="150">
 
  Open FPGA Stack (OFS) is an open-source solution that provides a hardware and software framework for building your shell design and subsequently your workload.  
 OFS provides reference shell designs targeting different Intel<sup>&reg;</sup> FPGA devices with upstreamed drivers and management software tools.  
@@ -13,9 +13,9 @@ Accessing OFS ingredients to use within the development framework is easy.  The 
 
 |Development Focus|Repository Folder | Description |
 |:----------------:|:------------------:|:--------------------|
-|Hardware | [ofs-n6001](https://github.com/OFS/ofs-n6001) | Provides RTL, unit tests, and build scripts to create Intel<sup>&reg;</sup> Agilex<sup>&reg;</sup> FIM and is leveraged as a starting point for a custom PCIe Attach design.  The reference FIM targets an [Intel® FPGA SmartNIC N6001-PL Platform](https://www.intel.com/content/www/us/en/products/details/fpga/platforms/smartnic/n6000-pl-platform.html). |
-|Hardware | [ofs-f2000x-pl](https://github.com/OFS/ofs-f2000x-pl) | Provides RTL, unit tests, and build scripts to create Intel<sup>&reg;</sup> Agilex<sup>&reg;</sup> FIM and is leveraged as a starting point for a custom SoC Attach design.  The reference FIM targets an [Intel® FPGA IPU F2000X-PL Platform](https://www.intel.com/content/www/us/en/products/details/network-io/ipu/f2000x-pl-platform.html). |
-|Hardware | [ofs-d5005](https://github.com/OFS/ofs-d5005) | Provides RTL, unit tests, and build scripts to create Intel<sup>&reg;</sup> Stratix 10<sup>&reg;</sup> FIM and is leveraged as a starting point for a custom PCIe Attach design.  The reference FIM targets an Intel® FPGA PAC D5005 development board. |
+|Hardware | [ofs-agx7-pcie-attach](https://github.com/OFS/ofs-n6001) | Provides RTL, unit tests, and build scripts to create an example Intel<sup>&reg;</sup> Agilex<sup>&reg;</sup> 7 FIM and is leveraged as a starting point for a custom PCIe Attach design.  The reference FIM targets both the [Intel® FPGA SmartNIC N6001-PL Platform](https://www.intel.com/content/www/us/en/products/details/fpga/platforms/smartnic/n6000-pl-platform.html) and [Intel Agilex 7 FPGA F-Series Development Kit (2x F-Tile) User Guide](https://www.intel.com/content/www/us/en/docs/programmable/739942/current/overview.html). |
+|Hardware | [ofs-f2000x-pl](https://github.com/OFS/ofs-f2000x-pl) | Provides RTL, unit tests, and build scripts to create an example Intel<sup>&reg;</sup> Agilex<sup>&reg;</sup> 7 FIM and is leveraged as a starting point for a custom SoC Attach design.  The reference FIM targets an [Intel® FPGA IPU F2000X-PL Platform](https://www.intel.com/content/www/us/en/products/details/network-io/ipu/f2000x-pl-platform.html). |
+|Hardware | [ofs-d5005](https://github.com/OFS/ofs-d5005) | Provides RTL, unit tests, and build scripts to create an example Intel<sup>&reg;</sup> Stratix 10<sup>&reg;</sup> FIM and is leveraged as a starting point for a custom PCIe Attach design.  The reference FIM targets an Intel® FPGA PAC D5005 development board. |
 | Hardware| [oneapi-asp](https://github.com/OFS/oneapi-asp) | Contains the files to generate the support package that works with the reference shells and allows you to use OneAPI. This is an optional repository for developers interested in OneAPI|
 |Hardware| [ofs-fim-common](https://github.com/OFS/ofs-fim-common) | Provides RTL components that are shared among all new platforms that are introduced in OFS.  This folder is a subumodule in each platform repository folder. |
 | Hardware | [examples-afu](https://github.com/OFS/examples-afu) | Provides simple Accelerator Functional Unit (AFU) examples you can use as a template for starting your own workload design.  |
