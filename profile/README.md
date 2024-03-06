@@ -5,6 +5,12 @@
  Open FPGA Stack (OFS) is an open-source solution that provides a hardware and software framework for building your shell design and subsequently your workload.  
 OFS provides reference shell designs targeting different Intel<sup>&reg;</sup> FPGA devices with upstreamed drivers and management software tools.  
 
+## **How Can I Start Using OFS?**
+
+To find out how easy it is to use OFS for your custom applications, please go to https://ofs.github.io/.
+
+To find information on the latest releases, go to the [Discussions Tab](https://github.com/orgs/OFS/discussions) in the OFS GitHub repository.
+
 <br>
 
 ## **Open FPGA Stack Repositories**
@@ -31,11 +37,6 @@ Accessing OFS ingredients to use within the development framework is easy.  The 
 <br/>
 <br/>
 
-## **How Can I Start Using OFS?**
-
-To find out how easy it is to use OFS for your custom applications, please go to https://ofs.github.io/.
-
-To find information on the latest releases, go to the [Discussions Tab](https://github.com/orgs/OFS/discussions) in the OFS GitHub repository.
 
 
 
